@@ -1,0 +1,91 @@
+html,body{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.sidebar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(181, 179, 230, 0.672);
+    width: 25%;
+    height: 100%;
+    border-radius: 10px
+}
+
+.main-information{
+    background-color: rgba(242, 243, 245, 0.7);
+    border-radius: 5px;
+    margin: 5%;
+    width: 85%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-information .name{
+    text-align: center;
+    width: 90%;
+}
+.main-information span{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img{
+    margin: 5%;
+    width: 60%;
+    border-radius: 50%;
+}
+
+.main{
+    width: 70%;
+    position: relative;
+    left:27%
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation a{
+    text-decoration: none;
+}
+
+.main{
+    background-color: rgba(233, 233, 233, 0.782);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#general{
+    background-color: rgba(255, 255, 255, 0.782);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#habilities,#hobbies{
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0.782);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.habilidades,.hobbies{
+    padding: 2%;
+    background-color: rgba(242, 243, 245, 0.7);
+}
